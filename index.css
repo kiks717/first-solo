@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,400;0,700;0,900;1,300;1,600&display=swap');
+body {
+  font-family: 'Source Serif Pro', serif; margin: 0; padding: 0; background: #23252C;
+}
+/* MAIN */
+.div-main{
+  position: absolute;
+  width: 317px;
+  /* height: 399px; */
+  left: 216px;
+  top: 361px;
+  background: #1A1B21;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid goldenrod;
+  border-bottom: 6px solid goldenrod;
+}
+img{
+  width: 90%;
+  padding-top: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+ border-radius: 49% 51% 51% 49% / 0% 0% 100% 100% ;
+}
+div .first-section {
+  justify-content: center;
+  text-align: center;
+}
+.first-section > h2, .front {
+  color: white;
+}
+div .second-section{
+  top: 3em;
+  contain: content;
+  background-color: #1A1B21;
+  padding: 1em;
+}
+.about{
+  color: goldenrod;
+}
+.desc{
+  color: white;
+}
+.front{
+  font-style: italic;
+}
+
+button{
+  box-sizing: border-box;
+/* Auto layout */
+  align-items: center;
+  /* padding: 8px 13px 9px 11px; */
+  gap: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: centers;
+  /* position: absolute; */
+  width: 247px;
+  height: 34px;
+  top: 42em;
+  /* white */
+  background: #FFFFFF;
+  /* gray/300 */
+  border: 1px solid #D1D5DB;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 10% / 20%;
+  cursor: pointer;
+}
+
+
+/* FOOTER */
+div .links{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 309px;
+  padding: 0 0.3em;
+  /* height: 60px; */
+  left: 216px;
+  top: 75em;
+  border: 3px solid goldenrod;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+a{
+  color: white;
+  size: 50px;
+}
+
