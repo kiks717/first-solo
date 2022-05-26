@@ -2,7 +2,6 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitterSquare, faGithubSquare, faInstagramSquare, faLinkedinIn } from "@fortawesome/free-brands-svg-icons" 
-// import { LinkHTMLAttributes } from 'react';
 
 export default function Footer () {
     return (
